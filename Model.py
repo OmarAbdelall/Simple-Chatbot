@@ -12,7 +12,7 @@ from nltk.stem import WordNetLemmatizer
 
 lemmatizer = WordNetLemmatizer() #initilizing the Wordnet lemmatizer
 
-intents = json.loads(open('C:\\Users\\omarn\\PycharmProjects\\chatbot3\\intents.json').read()) # loading form intents file
+intents = json.loads(open('"*********Enter the Intents.json File path ****************" ').read()) # loading form intents file
 
 words = [] # unique words in the pattern, used as features in the training model
 classes = []  # unique tags, used as label when we tarin the model
