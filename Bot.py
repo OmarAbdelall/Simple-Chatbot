@@ -18,7 +18,7 @@ lemmatizer = WordNetLemmatizer()
 
 
 
-intents = json.loads(open('C:\\Users\\omarn\\PycharmProjects\\chatbot3\\intents.json').read())
+intents = json.loads(open('*******************"Enter the Intents.json file Path here"**************').read())
 
 words = pickle.load(open('words.pkl', 'rb'))
 classes = pickle.load(open('classes.pkl', 'rb'))
